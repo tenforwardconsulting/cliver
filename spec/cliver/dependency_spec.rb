@@ -2,7 +2,6 @@ require 'cliver'
 require 'spec_helper'
 require 'fileutils'
 require 'tmpdir'
-require 'pry-byebug'
 
 describe Cliver::Dependency do
   let(:executable) { 'foo' }
