@@ -30,6 +30,6 @@ describe Cliver::Dependency do
   end
 
   it 'should not detect directory' do
-    expect(Cliver::Dependency.new(executable, path: @path).detect!).to eq @expect
+    expect(Cliver::Dependency.new(executable, :path => @path).detect!).to eq @expect
   end
 end
